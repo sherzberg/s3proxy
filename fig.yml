@@ -1,0 +1,10 @@
+app:
+  build: .
+  command: python3.4 app.py
+  ports:
+   - 5000:5000
+  environment:
+   DEBUG: true
+   AWS_ACCESS_KEY_ID:
+   AWS_SECRET_ACCESS_KEY:
+   AWS_BUCKET_NAME:
